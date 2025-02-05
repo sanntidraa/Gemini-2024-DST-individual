@@ -1,7 +1,7 @@
 # Gemini Project Use Case Diagram
 
 ## Use Case Diagram
-![screenshot](https://github.com/sanntidraa/muict-gitaction-demo1/blob/main/Gemini.png)
+![Usecase Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/2024-ITDS361-Gemini7__D2_Usecase_diagram.png)
 
 ## Use Case Description
 
