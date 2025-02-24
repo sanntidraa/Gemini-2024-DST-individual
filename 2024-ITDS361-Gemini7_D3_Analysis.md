@@ -4,8 +4,6 @@
 ![Class Diagram]()
 ---
 # 1. Create a science plan 
-## Use Case Diagram
-![Create a science plan  Use Case Diagram]()
 
 ## Use Case Description
 
@@ -73,8 +71,6 @@ The astronomer creates a science plan by specifying parameters such as the targe
 
 ---
 # 2. Test a science plan
-## Use Case Diagram
-![Test a science plan Use Case Diagram]()
 
 ## Use Case Description
 
@@ -142,8 +138,6 @@ The astronomer creates a science plan by specifying parameters such as the targe
 
 ---
 # 3. Submit a science plan
-## Use Case Diagram
-![Submit a science plan Use Case Diagram]()
 
 ## Use Case Description
 
@@ -209,8 +203,6 @@ This use case describes the process where an Astronomer submits a completed scie
 
 ---
 # 4. Access collected astronmical data
-## Use Case Diagram
-![Access collected astronmical data Use Case Diagram]()
 
 ## Use Case Description
 
@@ -275,8 +267,6 @@ The Astronomer accesses collected astronomical data stored in the system for res
 
 
 # 5. Access live view of telescope
-## Use Case Diagram
-![Access live view of telescope Use Case Diagram]()
 
 ## Use Case Description
 
