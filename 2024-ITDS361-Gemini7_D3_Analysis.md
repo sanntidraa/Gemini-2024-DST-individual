@@ -195,7 +195,7 @@ This use case describes the process where an Astronomer submits a completed scie
 | **6a** | If the plan is **not approved**, the **Astronomer** is notified with feedback for revisions. |
 
 ## Activity Diagram
-![Submit a science plan Activity Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Sequence%20diagrams/3_SubmitSciencePlan.png)
+![Submit a science plan Activity Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Activity%20diagrams/3_SubmitSciencePlan.png)
 
 ## Sequence Diagram
 ![Submit a science plan Sequence Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Sequence%20diagrams/3_SubmitSciencePlan.png)
