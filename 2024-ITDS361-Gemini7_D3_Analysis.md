@@ -219,28 +219,27 @@ This use case describes the process where an Astronomer submits a completed scie
 |---|---|
 | **ID** | 4 |
 | **Importance Level** | High |
-| **Primary Actor** |  |
+| **Primary Actor** | Astronomer |
 | **Use Case Type** | Detail, Essential |
 
 ### Stakeholders and Interests
 | Stakeholder | Interest |
 |---|---|
-| **Astronomer** |  |
-| **Science Observer** |  |
-| **Operation Staff** |  |
+| **Astronomer** | Requires access to collected astronomical data for research and analysis. |
+| **Science Observer** | Ensures the accuracy and completeness of the collected data. |
 
 ### Brief Description
-
+The Astronomer accesses collected astronomical data stored in the system for research purposes. The system verifies user authentication and data integrity before granting access.
 
 ### Trigger
-| Type | User-Initiated |
+| Type | External |
 |---|---|
-| **Trigger** |  |
+| **Trigger** | The Astronomer requests access to collected astronomical data. |
 
 ### Relationships
 | Type | Entities |
 |---|---|
-| **Association** | - |
+| **Association** | Astronomer |
 | **Include** | - |
 | **Extend** | - |
 | **Generalization** | - |
@@ -248,30 +247,30 @@ This use case describes the process where an Astronomer submits a completed scie
 ### Normal Flow of Events
 | Step | Description |
 |---|---|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-| 4 |  |
-| 5 |  |
-| 6 |  |
+| 1 | The Astronomer logs into the system. |
+| 2 | The system verifies the Astronomer’s authentication and access permissions. |
+| 3 | The system displays the available astronomical data. |
+| 4 | The Astronomer selects the required astronomical data. |
+| 5 | The system validates the integrity of the selected data. |
+| 6 | The system grants access to the validated data. |
+| 7 | The Astronomer retrieves and analyzes the data. |
 
 ### Subflows
 | Step | Condition |
 |---|---|
-| **3a** |  |
-| **5a** |  |
+| **5a** |  If data integrity issues are detected: The system notifies the Science Observer for verification before granting access. |
 
 ### Alternate/Exceptional Flow
 | Step | Condition |
 |---|---|
-| **4a** |  |
-| **6a** |  |
+| **2a** | If the Astronomer lacks access permissions: The system denies access and provides instructions to request necessary permissions. |
+| **6a** | If the requested data is unavailable: The system notifies the Astronomer and suggests verifying the request or checking back later. |
 
 ## Activity Diagram
-![Access collected astronmical data  Activity Diagram]()
+![Access collected astronmical data  Activity Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Activity%20diagrams/4_AccessCollectedAstronomicalData.png)
 
 ## Sequence Diagram
-![Access collected astronmical data  Sequence Diagram]()
+![Access collected astronmical data  Sequence Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Sequence%20diagrams/4_AccessCollectedAstronomicalData.png)
 ---
 
 
@@ -286,28 +285,27 @@ This use case describes the process where an Astronomer submits a completed scie
 |---|---|
 | **ID** | 5 |
 | **Importance Level** | High |
-| **Primary Actor** |  |
+| **Primary Actor** | Astronomer |
 | **Use Case Type** | Detail, Essential |
 
 ### Stakeholders and Interests
 | Stakeholder | Interest |
 |---|---|
-| **Astronomer** |  |
-| **Science Observer** |  |
-| **Operation Staff** |  |
+| **Astronomer** | Requires live access to the telescope’s view for real-time observations and analysis. |
+| **Telescope Operator** | May monitor or manage the live view to ensure proper functioning of the telescope |
 
 ### Brief Description
-
+The Astronomer accesses a live view of the telescope through the system to observe astronomical objects in real-time. The system streams the live data from the telescope for the Astronomer to view and analyze.
 
 ### Trigger
-| Type | User-Initiated |
+| Type | External |
 |---|---|
-| **Trigger** |  |
+| **Trigger** | The Astronomer requests to access the live view from the telescope. |
 
 ### Relationships
 | Type | Entities |
 |---|---|
-| **Association** | - |
+| **Association** | Astronomer |
 | **Include** | - |
 | **Extend** | - |
 | **Generalization** | - |
@@ -315,28 +313,26 @@ This use case describes the process where an Astronomer submits a completed scie
 ### Normal Flow of Events
 | Step | Description |
 |---|---|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-| 4 |  |
-| 5 |  |
-| 6 |  |
+| 1 | The Astronomer sends a request to access the live view of the telescope. |
+| 2 | The system authenticates the Astronomer’s credentials. |
+| 3 | The system establishes a live connection to the telescope's feed. |
+| 4 | The system streams the live view to the Astronomer. |
+| 5 | The Astronomer observes and analyzes the live view for further study. |
 
 ### Subflows
 | Step | Condition |
 |---|---|
-| **3a** |  |
-| **5a** |  |
+| **3a** |  If the system requires additional permissions: The system requests authorization from the Telescope Operator before granting access |
 
 ### Alternate/Exceptional Flow
 | Step | Condition |
 |---|---|
-| **4a** |  |
-| **6a** |  |
+| **2a** |  If authentication fails: The system denies access and prompts the Astronomer to retry or contact support. |
+| **3b** |  If the live view connection fails: The system notifies the Astronomer and suggests retrying later. |
 
 ## Activity Diagram
-![Access live view of telescope Activity Diagram]()
+![Access live view of telescope Activity Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Activity%20diagrams/5_AccessLiveViewOfTelescope.png)
 
 ## Sequence Diagram
-![Access live view of telescope Sequence Diagram]()
+![Access live view of telescope Sequence Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Sequence%20diagrams/5_AccessLiveViewOfTelescope.png)
 ---
