@@ -63,10 +63,10 @@ The astronomer creates a science plan by specifying parameters such as the targe
 | **5b** | The system notifies the user of an error and suggests retrying later.  |
 
 ## Activity Diagram
-![Create a science plan  Activity Diagram]()
+![Create a science plan  Activity Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Activity%20diagrams/1_CreateSciencePlan.png)
 
 ## Sequence Diagram
-![Create a science plan  Sequence Diagram]()
+![Create a science plan  Sequence Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Sequence%20diagrams/1_CreateSciencePlan.png)
 
 
 ---
@@ -130,10 +130,10 @@ The astronomer creates a science plan by specifying parameters such as the targe
 | **3a** | The astronomer can retry later or use offline analysis tools if available. |
 
 ## Activity Diagram
-![Test a science plan Activity Diagram]()
+![Test a science plan Activity Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Activity%20diagrams/2_TestSciencePlan.png)
 
 ## Sequence Diagram
-![Test a science plan Sequence Diagram]()
+![Test a science plan Sequence Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Sequence%20diagrams/2_TestSciencePlan.png)
 
 
 ---
