@@ -154,10 +154,10 @@ The astronomer creates a science plan by specifying parameters such as the targe
 |---|---|
 | **Astronomer** | Wants to submit the science plan for review and execution. |
 | **Science Observer** | Needs to validate and transform the submitted plan into an observing program. |
-| **Operation Staff** | Ensures the plan is executable within the telescope system. |
+| **Telescope Operator** | Ensures the plan is executable within the telescope system. |
 
 ### Brief Description
-This use case describes the process where an Astronomer submits a completed science plan for validation and execution by the Science Observer and Operation Staff.
+This use case describes the process where an Astronomer submits a completed science plan for validation and execution by the Science Observer and Telescope Operator.
 
 ### Trigger
 | Type | User-Initiated |
