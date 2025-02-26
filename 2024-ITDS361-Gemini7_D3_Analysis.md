@@ -1,7 +1,7 @@
 # Gemini Project Analysis of 5 selected use cases
 ---
 # Class Diagram
-![Class Diagram]()
+![Class Diagram](https://github.com/ICT-Mahidol/2024-ITDS361-Gemini7/blob/master/Class%20Diagram.png)
 ---
 # 1. Create a science plan 
 
