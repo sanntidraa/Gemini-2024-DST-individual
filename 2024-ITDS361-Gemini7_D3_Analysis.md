@@ -167,7 +167,7 @@ This use case describes the process where an Astronomer submits a completed scie
 ### Relationships
 | Type | Entities |
 |---|---|
-| **Association** | Astronomer, Science Observer, Operation Staff |
+| **Association** | Astronomer, Science Observer, Telescope Operator |
 | **Include** | - |
 | **Extend** | - |
 | **Generalization** | - |
